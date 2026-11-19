@@ -1,0 +1,16 @@
+{
+  "local_links": [
+    {
+      "file": "index.html",
+      "local_links": 31,
+      "broken": []
+    },
+    {
+      "file": "co2_kratkovlnna_absorpce.html",
+      "local_links": 31,
+      "broken": []
+    }
+  ],
+  "opening_preserved": true,
+  "primary_inputs_and_runs_unchanged": true
+}

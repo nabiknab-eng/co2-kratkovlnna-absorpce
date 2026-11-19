@@ -1,0 +1,15 @@
+Požadavky recenzenta předané uživatelem, 19. 11. 2026
+
+1. Spektroskopická databáze a tvar čar: uvést přesnou verzi databáze,
+model čar, ořez vzdálených křídel a zahrnutí CO2–N2 a CO2–O2 CIA v SW.
+2. Solární spektrum a geometrie: přesný mimoatmosférický zdroj, μ0,
+integrace přes den a šířku; nelineární optická dráha v1,6 a2,0µm.
+3. Přesná tlaková/výšková tropopauza pro hmotnostní průměr
+−1,35→−1,10°C a citlivost posunu dolní hranice o jednu modelovou vrstvu.
+4. Tabulka ΔL↓ na povrchu pro stejné profily a280→420/560/1120ppm;
+poměr SW úbytku a LW přírůstku na povrchu i na horní hranici mezní vrstvy.
+
+Odpověď a stav splnění: technický oddíl #recenzni-audit vindex.html.
+Číselné výsledky: results/reviewer_audit/; metoda: reviewer_audit.py.
+Přesný generátorový cutoff, úplná CO2 párová CIA a skutečná diagnóza
+horní hranice mezní vrstvy nebyly z dostupných vstupů doloženy.

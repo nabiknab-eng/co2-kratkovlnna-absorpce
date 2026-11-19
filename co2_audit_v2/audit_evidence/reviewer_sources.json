@@ -1,0 +1,38 @@
+{
+  "checked_on": "2026-11-19",
+  "sources": [
+    {
+      "url": "https://confluence.ecmwf.int/spaces/CKDMIP/pages/188045212/How%2BCKD%2Btools%2Bwork",
+      "section": "RRTMGP",
+      "supports": "Published lineage LBLRTM12.8, aer_v_3.6 largely HITRAN2012, MT_CKD3.2; original within-band solar source mapping.",
+      "does_not_establish": "Exact generator TAPE5 and line-wing cutoff for the packaged binary tables."
+    },
+    {
+      "url": "https://doi.org/10.1029/2019MS001621",
+      "supports": "Original RTE-RRTMGP methodology and validation; not a new HITRAN2024 line-by-line run."
+    },
+    {
+      "url": "https://hitran.org/cia/",
+      "supports": "Official catalog lists O2-CO2_2024.cia over9105–13839cm^-1 and CO2-H2O_2024.cia over5700–6300cm^-1; no separately named CO2-N2 entry.",
+      "does_not_establish": "Zero physical CO2-N2 CIA or a bound on omitted radiative forcing."
+    },
+    {
+      "url": "https://hitran.org/data/CIA/CIA_Readme_2024.pdf",
+      "supports": "Official CIA release documentation and pair data references; Table1 gives O2-CO2 sets9105–9545cm^-1 at293K and12600–13839cm^-1 at296K. The latter overlaps the numerically tested RRTMGP band."
+    },
+    {
+      "url": "https://lasp.colorado.edu/lisird/data/tsis1_hsrs/",
+      "data_url": "https://lasp.colorado.edu/lisird/resources/lasp/hsrs/v2/hybrid_reference_spectrum_1nm_resolution_c2022-11-30_with_unc.nc",
+      "local_file": "data/solar_1nm.nc",
+      "supports": "TSIS-1 HSRSv2 reference spectrum; exact1nm product date and spectral coverage verified from packaged NetCDF metadata.",
+      "does_not_establish": "Replacement of native within-band RRTMGP g-point source correlations."
+    }
+  ],
+  "own_numerical_evidence": {
+    "script": "reviewer_audit.py",
+    "results": "results/reviewer_audit/summary.json",
+    "angular_runs": "New RTE-RRTMGP band runs with4 and16 Gauss nodes; main8-node run reused and checked.",
+    "temperature_runs": "Saved baseline and independently recomputed tropopause±1 interface FDH runs, not merely changes to averaging weights.",
+    "flux_runs": "Saved instantaneous and adjusted full/CO2-SW-off fluxes for280→420/560/1120ppm; no invented PBL height."
+  }
+}

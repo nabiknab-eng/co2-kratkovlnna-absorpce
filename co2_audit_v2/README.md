@@ -1,9 +1,9 @@
-# Krátkovlnná absorpce CO₂: numerický výzkum a audit, rozšířená verze
+# Krátkovlnná absorpce CO₂ a útlum slunečního toku k povrchu
 
 Hlavní zpráva je `index.html`. Všechny její grafy jsou vložené přímo do HTML,
 takže ke čtení nepotřebuje síť. Schválený český úvod je obsahově zachovaný;
 na výslovné přání uživatele byly v jeho nadpisu doplněny uvozovky kolem
-výrazu „zadržování tepla“. Záhlaví zůstalo beze změny. Původní kopie úvodu
+výrazu „zadržování tepla“. Hlavní nadpis a název HTML byly následně na výslovné přání uživatele změněny na „Krátkovlnná absorpce CO₂ a útlum slunečního toku k povrchu“. Původní kopie úvodu
 je v `audit_evidence/intro_before_quotation_update.html`, původní i aktuální
 kontrolní otisky jsou v `preservation.json`.
 
@@ -15,6 +15,44 @@ nejde o nový ozonový nebo klimatický experiment.
 
 Integritu celé dodávky lze před instalací vědeckého prostředí ověřit obyčejným
 Pythonem: `python3 verify_manifest.py`. Tento krok nic nestahuje ani nemění.
+
+## Doplnění podle čtyř požadavků recenzenta
+
+HTML obsahuje technický dodatek „Audit čtyř předpokladů“ za metodami.
+`reviewer_audit.py` exportuje výsledky do `results/reviewer_audit/`:
+
+- Přesná metadata a SHA256 hlavních absorpčních tabulek, publikovaný původ
+  LBLRTM12.8 / aer_v_3.6 / převážně HITRAN2012 / MT_CKD3.2. Původní TAPE5
+  a přesný generátorový cutoff zůstávají neověřené. Úplná požadovaná párová
+  CO₂ CIA není doložena. Numerický test optiky při 280→560ppm nachází nulovou
+  odezvu na CO₂ v pásmu12850–16000cm⁻¹ překrývajícím rozsah dat O₂–CO₂.
+  Tento test neurčuje velikost chybějícího toku ani horní mez této chyby.
+- Přesný TSIS-1 HSRS v2 produkt na **1nm síti**, pásmové převážení při
+  zachování nativních podílů g bodů, všech800 úhlových uzlů a vah.
+  Nově skutečně spočtené pásmové SW toky při4/8/16 uzlech pro280→420ppm.
+- Tabulka všech100 tropopauz s indexy, tlaky a výškami, přesná definice
+  hmotnostního průměru a jeho hranice0,95637hPa při výběru celých vrstev.
+  Posun hranice skutečné FDH o jednu vrstvu dává16,01–20,64% oproti18,38%.
+  Pouhý posun integrační hranice je vyhodnocen odděleně. Přesný horní řez
+  na100Pa s částečnou tlakovou hmotností vrstvy dává18,397%.
+- SW/LW dolů, nahoru, čisté i celkové změny pro280→420/560/1120ppm:
+  okamžitý experiment, celý účinek poFDH a samotný SW příspěvekB−C.
+  Povrch a referenční výšky0,5/1/2km jsou vyhodnoceny pro každý profil.
+  **Tyto výšky nejsou skutečnou diagnostikovanou hloubkou mezní vrstvy.**
+  Pro ni chybí fyzikální diagnóza a příslušné vstupy.
+
+Samostatná reprodukce dodatku v připnutém vědeckém prostředí:
+
+```sh
+python reviewer_audit.py
+python build_report.py
+```
+
+Soubor `summary.json` obsahuje nezaokrouhlené hodnoty i stavy neuzavřených
+požadavků; jednotlivé CSV uchovávají profily, váhy a definice poměrů.
+Nové pásmové výsledky4/16 se ukládají doNetCDF a při dalším běhu se načtou.
+Úplné přijetí výsledků jako nové čárové fyzikální reference nelze prohlásit
+za dokončené bez generátorového nastavení, ověření CIA a skutečné výšky PBL.
 
 ## Co bylo provedeno
 
