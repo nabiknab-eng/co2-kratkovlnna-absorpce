@@ -1,0 +1,18 @@
+{
+  "Beer_Lambert_absorption_error_Wm2": 6.938893903907228e-16,
+  "conservative_scattering_net_error_Wm2": 2.620713646095396e-10,
+  "energy_summary_rows": 112,
+  "max_SW_closure_Wm2": 4.475586568020162e-16,
+  "FDH_runs_checked": 62,
+  "max_FDH_residual_K_day": 1.5646390508550212e-05,
+  "heating_mass_integral_error_Wm2": 2.842170943040401e-14,
+  "spectral_sum_error_Wm2": 8.049116928532385e-16,
+  "positive_surface_band_anomalies": [
+    {
+      "low_um": 3.7313432835820897,
+      "high_um": 12.195121951219512,
+      "delta_Wm2": 0.007384661311998999
+    }
+  ],
+  "strict_RRTMG_FDH": "did not converge: max residual ~0.0124 K/day after35 iterations; secondary run uses0.02 K/day"
+}

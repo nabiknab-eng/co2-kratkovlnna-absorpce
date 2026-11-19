@@ -1,0 +1,250 @@
+[
+  {
+    "file": "results/global_tsis/adjusted_lw_only_280_1120_diagnostics.npz",
+    "max_K_day": 6.318549488071312e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_co2off_280_1120_diagnostics.npz",
+    "max_K_day": 8.196685956640692e-07
+  },
+  {
+    "file": "results/global_tsis/adjusted_lw_only_420_560_diagnostics.npz",
+    "max_K_day": 1.5646390508550212e-05
+  },
+  {
+    "file": "results/global_tsis/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_lw_only_280_560_diagnostics.npz",
+    "max_K_day": 6.884129446049769e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_full_278_417_diagnostics.npz",
+    "max_K_day": 6.261511281024923e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_co2off_278_417_diagnostics.npz",
+    "max_K_day": 6.541150039396371e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_co2off_420_560_diagnostics.npz",
+    "max_K_day": 1.532831504214016e-05
+  },
+  {
+    "file": "results/global_tsis/adjusted_full_420_560_diagnostics.npz",
+    "max_K_day": 1.4823060293878143e-05
+  },
+  {
+    "file": "results/global_tsis/adjusted_co2off_280_560_diagnostics.npz",
+    "max_K_day": 6.574896852740153e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.297305063185377e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.5780234717038866e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_full_280_560_diagnostics.npz",
+    "max_K_day": 7.083151349007721e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_lw_only_278_417_diagnostics.npz",
+    "max_K_day": 6.664452078197769e-06
+  },
+  {
+    "file": "results/global_tsis/adjusted_full_280_1120_diagnostics.npz",
+    "max_K_day": 9.811682293303647e-07
+  },
+  {
+    "file": "results/global_native/adjusted_lw_only_280_1120_diagnostics.npz",
+    "max_K_day": 6.318549488071312e-06
+  },
+  {
+    "file": "results/global_native/adjusted_co2off_280_1120_diagnostics.npz",
+    "max_K_day": 9.01522576368663e-07
+  },
+  {
+    "file": "results/global_native/adjusted_lw_only_420_560_diagnostics.npz",
+    "max_K_day": 1.5646390508550212e-05
+  },
+  {
+    "file": "results/global_native/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/global_native/adjusted_lw_only_280_560_diagnostics.npz",
+    "max_K_day": 6.884129446049769e-06
+  },
+  {
+    "file": "results/global_native/adjusted_full_278_417_diagnostics.npz",
+    "max_K_day": 6.258153641525155e-06
+  },
+  {
+    "file": "results/global_native/adjusted_co2off_278_417_diagnostics.npz",
+    "max_K_day": 6.542804236175925e-06
+  },
+  {
+    "file": "results/global_native/adjusted_co2off_420_560_diagnostics.npz",
+    "max_K_day": 1.5330558941428762e-05
+  },
+  {
+    "file": "results/global_native/adjusted_full_420_560_diagnostics.npz",
+    "max_K_day": 1.4816818543650356e-05
+  },
+  {
+    "file": "results/global_native/adjusted_co2off_280_560_diagnostics.npz",
+    "max_K_day": 6.576999428631325e-06
+  },
+  {
+    "file": "results/global_native/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.293775689059089e-06
+  },
+  {
+    "file": "results/global_native/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.579450371191342e-06
+  },
+  {
+    "file": "results/global_native/adjusted_full_280_560_diagnostics.npz",
+    "max_K_day": 7.089522789271996e-06
+  },
+  {
+    "file": "results/global_native/adjusted_lw_only_278_417_diagnostics.npz",
+    "max_K_day": 6.664452078197769e-06
+  },
+  {
+    "file": "results/global_native/adjusted_full_280_1120_diagnostics.npz",
+    "max_K_day": 7.967658373075892e-07
+  },
+  {
+    "file": "results/convergence_vertical2/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 1.395202069431889e-07
+  },
+  {
+    "file": "results/convergence_vertical2/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 1.9902005377048226e-07
+  },
+  {
+    "file": "results/convergence_vertical2/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 1.3012875754725428e-07
+  },
+  {
+    "file": "results/convergence_vertical4/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 2.0157747115945313e-07
+  },
+  {
+    "file": "results/convergence_vertical4/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 2.740396958245128e-07
+  },
+  {
+    "file": "results/convergence_vertical4/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 1.8876915675036798e-07
+  },
+  {
+    "file": "results/convergence_nmu4/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/convergence_nmu4/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.2924662209695725e-06
+  },
+  {
+    "file": "results/convergence_nmu4/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.573903130302483e-06
+  },
+  {
+    "file": "results/convergence_nmu16/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/convergence_nmu16/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.297661157006473e-06
+  },
+  {
+    "file": "results/convergence_nmu16/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.578884661934126e-06
+  },
+  {
+    "file": "results/convergence_spectral112_128/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.783797939391434e-06
+  },
+  {
+    "file": "results/convergence_spectral112_128/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.510071349552504e-06
+  },
+  {
+    "file": "results/convergence_spectral112_128/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.723037150990763e-06
+  },
+  {
+    "file": "results/convergence_SW112_LW256/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/convergence_SW112_LW256/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.432300123648815e-06
+  },
+  {
+    "file": "results/convergence_SW112_LW256/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.636141328897338e-06
+  },
+  {
+    "file": "results/convergence_SW224_LW128/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.783797939391434e-06
+  },
+  {
+    "file": "results/convergence_SW224_LW128/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.3739297182507926e-06
+  },
+  {
+    "file": "results/convergence_SW224_LW128/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.666243914210668e-06
+  },
+  {
+    "file": "results/convergence_original_instant_geometry/adjusted_lw_only_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/convergence_original_instant_geometry/adjusted_full_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/convergence_original_instant_geometry/adjusted_co2off_280_420_diagnostics.npz",
+    "max_K_day": 6.7017156979432e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/high_overcast_full_diagnostics.npz",
+    "max_K_day": 6.3107911838500286e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/tropopause_one_level_higher_full_diagnostics.npz",
+    "max_K_day": 6.29696412168812e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/low_overcast_co2off_diagnostics.npz",
+    "max_K_day": 6.577633278936901e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/low_overcast_full_diagnostics.npz",
+    "max_K_day": 6.296821428719568e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/tropopause_one_level_lower_co2off_diagnostics.npz",
+    "max_K_day": 6.578358098252579e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/high_overcast_co2off_diagnostics.npz",
+    "max_K_day": 6.591871997585486e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/tropopause_one_level_lower_full_diagnostics.npz",
+    "max_K_day": 6.297365674257094e-06
+  },
+  {
+    "file": "results/fdh_sensitivities/tropopause_one_level_higher_co2off_diagnostics.npz",
+    "max_K_day": 6.57767495404471e-06
+  }
+]

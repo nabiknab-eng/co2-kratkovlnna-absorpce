@@ -1,0 +1,387 @@
+[
+  {
+    "file": "data/solar_full.csv",
+    "url": "https://lasp.colorado.edu/lisird/latis/dap/tsis1_hsrs_binned_fs.csv",
+    "size": 10305808,
+    "sha256": "e63693db630363c0263847154a6aec4c3828d94ac13605dab27949de58f19bc1",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1a.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1a.csv",
+    "size": 3871,
+    "sha256": "75e283c7b9f378e34b54ba6db8686538b6c507e04c03d635eb14b38cbbb76565",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1c.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1c.csv",
+    "size": 3871,
+    "sha256": "556f76b86c13d6374dd8d1efc8b7920b92ab5ec4b7f7b7de4bd7a8ad093ec6f8",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1b.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1b.csv",
+    "size": 3871,
+    "sha256": "3558bb4690295d07807d77b86c2282ffcec5a2bc64f3302f833315cc3b3235d2",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1f.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1f.csv",
+    "size": 3871,
+    "sha256": "d2d06777c7fbb9ed5bde5bf262a854ff61f9e83ea4d9b771006f10b87468eeda",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1e.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1e.csv",
+    "size": 3871,
+    "sha256": "686a317f549f48cffadea61ea21057d4505c4d4b207cdd52cd73f8833d2ca400",
+    "archive_member": null
+  },
+  {
+    "file": "data/afgl_1d.csv",
+    "url": "https://raw.githubusercontent.com/rayference/afgl1986/9d170bb3e52bbebf8341e6682c12dd611ddc08da/tables/1d.csv",
+    "size": 3871,
+    "sha256": "7afaf96331932bbad879d8ec021642e3c0c83aae6441a579a80d5d92711d01ad",
+    "archive_member": null
+  },
+  {
+    "file": "data/solar_1nm.nc",
+    "url": "https://lasp.colorado.edu/lisird/resources/lasp/hsrs/v2/hybrid_reference_spectrum_1nm_resolution_c2022-11-30_with_unc.nc",
+    "size": 622448,
+    "sha256": "84073a2b0fb5088fae75348f9204b8e6894dfccd16ef991303e545fcd966b84f",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/concentrations_co2-280.nc",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/concentrations/ckdmip_evaluation1_concentrations_co2-280.nc",
+    "size": 250432,
+    "sha256": "e7f9003c27ab887c5fad106c2bdcde80b30c18cf8cd63c7b21fbe5e95014a8f6",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_co2-280.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_co2-280.h5",
+    "size": 2493634,
+    "sha256": "74c46d6ce8e5f4e213a6aa4cc568432e2911ede000f6edac045403724fdb5565",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_co2-1120.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_co2-1120.h5",
+    "size": 2493644,
+    "sha256": "421bad1e99c014005eb58a35f3444c33981607c72be4ca6cdbc9304d4c9efaf2",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/concentrations_present.nc",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/concentrations/ckdmip_evaluation1_concentrations_present.nc",
+    "size": 250372,
+    "sha256": "d1ff32b8e16f21c9a8771abd3e4e9ec6131903572195ad7714e44bf94b2ad289",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_co2-180.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_co2-180.h5",
+    "size": 2493634,
+    "sha256": "6d32e4fa848a622dd8ac721d5d1916dd3cb68a151efd9b3ff10a171feba1be71",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_co2-560.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_co2-560.h5",
+    "size": 2493634,
+    "sha256": "351bc44c48581f28378ba9e8c960b79f921b27af2e7401190801911713193b9a",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_co2-2240.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_co2-2240.h5",
+    "size": 2493644,
+    "sha256": "5ca01c694cda2494f4ab315b1822e6add7e727de35c4cc43f793c8b0225215cd",
+    "archive_member": null
+  },
+  {
+    "file": "data/ckdmip/sw_present.h5",
+    "url": "https://aux.ecmwf.int/ecpds/home/ckdmip/sw_fluxes/evaluation1/ckdmip_evaluation1_sw_fluxes_present.h5",
+    "size": 2493634,
+    "sha256": "60a0da6eb2ab938f5d0387d2946078c02acaaa5641519532bea7532a8a8e2f1f",
+    "archive_member": null
+  },
+  {
+    "file": "data/cohen/287K_280.0ppm.nc",
+    "url": "https://zenodo.org/api/records/16929030/files/co2_strat_adjust-co2_strat_adjust.zip/content",
+    "size": 188585,
+    "sha256": "875d06dd31faf437825c48950cf400d44bb03db6e9b9f71e97e243c3a02f2f9c",
+    "archive_member": "287K_280.0ppm.nc"
+  },
+  {
+    "file": "data/cohen/287K_1120.0ppm.nc",
+    "url": "https://zenodo.org/api/records/16929030/files/co2_strat_adjust-co2_strat_adjust.zip/content",
+    "size": 188586,
+    "sha256": "b122c39197d3f51f05e2321d68b38d334c3c637b0d153cb2552bd894deac15b0",
+    "archive_member": "287K_1120.0ppm.nc"
+  },
+  {
+    "file": "data/cohen/287K_560.0ppm.nc",
+    "url": "https://zenodo.org/api/records/16929030/files/co2_strat_adjust-co2_strat_adjust.zip/content",
+    "size": 188603,
+    "sha256": "08d4dc56b651a32017cf281e9770b417d4650d17198506fafc24f21fcd633a10",
+    "archive_member": "287K_560.0ppm.nc"
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-gas-lw-g256.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-gas-lw-g256.nc",
+    "size": 20816477,
+    "sha256": "4048360199d1917ed8f2ccaae2ec097d0f990da3bbad9830337b739b4fa01be7",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-lw-bnd.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-lw-bnd.nc",
+    "size": 49919,
+    "sha256": "09d6704c5b863b4c3ceb417d20bb3076ec492e6bf2dfbcc9f3c5996a3706f0b0",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-lw-g256.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-lw-g256.nc",
+    "size": 179896,
+    "sha256": "3b501d79109ab16ae4fee8b6ce83bfbfd59e158c4d246092b358a44b78722d49",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-aerosols-merra-lw.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-aerosols-merra-lw.nc",
+    "size": 86192,
+    "sha256": "2c39dace5a730d1ee0a6007b4c972043b16168f58cb184def9bc949853d7154b",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-sw-bnd.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-sw-bnd.nc",
+    "size": 47659,
+    "sha256": "7671835992a45afe66244b591a02c0b3df73d7d59ecb746bbffd9763497651cd",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-sw-g224.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-sw-g224.nc",
+    "size": 145777,
+    "sha256": "969a983bec885cdb5d6879660a214f374a1bd763ce8f2c5045dec444303946ec",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-gas-lw-g128.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-gas-lw-g128.nc",
+    "size": 11679993,
+    "sha256": "70ad65d116531122660318e5da2a2af9db74b425916202860e9527ef2375b8f6",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-aerosols-merra-sw.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-aerosols-merra-sw.nc",
+    "size": 79491,
+    "sha256": "7885b7058f1f536163a1f8e5ca97d13783a353310a44974364788deb7abf6e11",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-sw-g112.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-sw-g112.nc",
+    "size": 104080,
+    "sha256": "06afc10ac3221309351f6dc1f2fd0617ec44e5c521cb45e54594f817e5ca5b91",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-clouds-lw-g128.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-clouds-lw-g128.nc",
+    "size": 117017,
+    "sha256": "fdd59c3aff059618cb56ad7308144539eb45f811c136fcc28eeddeac52149127",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-gas-sw-g224.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-gas-sw-g224.nc",
+    "size": 11083642,
+    "sha256": "584f1dd41ea9fc07d4ee3754eb1dafbd46ad3161cd6fd20fa06b6922b6f0702e",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/rrtmgp-gas-sw-g112.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/rrtmgp-gas-sw-g112.nc",
+    "size": 5949944,
+    "sha256": "361ed541324068ded28a275a4dd757bcaa0a845aebefa630f43a04678668fe62",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/rld_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/rld_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 45262,
+    "sha256": "20549c0ce213bf55f49623cb1178e120fe6d964c182c533df8bf84813dcb4a81",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/multiple_input4MIPs_radiation_RFMIP_UColorado-RFMIP-1-2_none.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/multiple_input4MIPs_radiation_RFMIP_UColorado-RFMIP-1-2_none.nc",
+    "size": 1859666,
+    "sha256": "b8dc05d7cd2e0e6354b4a6198771ddf3bc09f18d72b49f20a41e2024e2fd51f4",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/rsu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/rsu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 45261,
+    "sha256": "9ea9cc2044858bdbd475bb44cce3ed6c4fe15e1498c629c963c942f34d39b821",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/generate-templates.py",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/generate-templates.py",
+    "size": 7677,
+    "sha256": "00a9d05321bbd53df89672b858d395022c7024d13160f684be1d2bb79b88bf30",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/rlu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/rlu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 45260,
+    "sha256": "b23d227a76a18f6220274a13062804107d4bf2360bce71a17162cfa9684eb2ec",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/inputs/rsd_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/inputs/rsd_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 45263,
+    "sha256": "0d6e23fd3bd0267930ad98e2a6a5bca67db431e8d9050496577e614e64efaf01",
+    "archive_member": null
+  },
+  {
+    "file": "data/allen/B1850_MOD_TEST.TREFHT.005001-009012.nc",
+    "url": "https://zenodo.org/records/10357888/files/B1850_MOD_TEST.TREFHT.005001-009012.nc?download=1",
+    "size": 27240588,
+    "sha256": "43ef84447857ff21f58044af21d520f38897bc58069acca11ab326ba2cac8f27",
+    "archive_member": null
+  },
+  {
+    "file": "data/allen/B1850_2_5xCH4_MOD_TEST.TREFHT.005001-009012.nc",
+    "url": "https://zenodo.org/records/10357888/files/B1850_2_5xCH4_MOD_TEST.TREFHT.005001-009012.nc?download=1",
+    "size": 27244536,
+    "sha256": "fa05a36d7555f54dc62abb1dedff4a363ec348757cfa1f5c2074a13494a0f1a1",
+    "archive_member": null
+  },
+  {
+    "file": "data/allen/B1850_2_5xCH4_TEST.TREFHT.005001-009012.nc",
+    "url": "https://zenodo.org/records/10357888/files/B1850_2_5xCH4_TEST.TREFHT.005001-009012.nc?download=1",
+    "size": 27242552,
+    "sha256": "d53f6ddf72cf888cb56fa4f03c5f41ff69be51bfbefce102873009b59c16996f",
+    "archive_member": null
+  },
+  {
+    "file": "data/allen/B1850_TEST.TREFHT.005001-009012.nc",
+    "url": "https://zenodo.org/records/10357888/files/B1850_TEST.TREFHT.005001-009012.nc?download=1",
+    "size": 27238604,
+    "sha256": "9b769c73dd95c0d05f4c6970bd45df1199a34045aa2499e60e40bfe647b4ad17",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/LICENSE",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/LICENSE",
+    "size": 1586,
+    "sha256": "dfe678892093791b1e4338e9f053c5f2ee592cfd8aa5859ba92a61a8d574ea3f",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/CITATION.cff",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/CITATION.cff",
+    "size": 1203,
+    "sha256": "9a058bb684df3dcab811949eb4ed8c4c30570181ca3e64901d24697996bd9ef7",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/README.md",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/README.md",
+    "size": 877,
+    "sha256": "682811f726153957b4e33de139e868e28c2cde44455e67af00556576404eb1d8",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/Readme.md",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/Readme.md",
+    "size": 450,
+    "sha256": "9eb88aa6c0c024ded1b473b975bf5bfb3d298e2bd915183293f51d5e6e1207fe",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/reference/rld_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/reference/rld_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 484462,
+    "sha256": "8629ec4b1caaea5a5c1756f25b432637369725ee684c61af0dad5c9ca37556b5",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/reference/rsu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/reference/rsu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 485284,
+    "sha256": "0ea3f4272d9ef088db6ffd07153587863a052e3cf8b3bf04bfb7c9288ed8b324",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/reference/rlu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/reference/rlu_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 484460,
+    "sha256": "254569d9bb0934fb510306c3e22e13ea826bd918727b477fc20600213923493c",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/rfmip-clear-sky/reference/rsd_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/rfmip-clear-sky/reference/rsd_Efx_RTE-RRTMGP-181204_rad-irf_r1i1p1f1_gn.nc",
+    "size": 485284,
+    "sha256": "f9b0313fdf74598859a7caf27a5d1395b7fe1e445c9620a66856cc19eaf5e5b9",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-lw-no-aerosols-gpt-clouds.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-lw-no-aerosols-gpt-clouds.nc",
+    "size": 53579,
+    "sha256": "07eec19839574595e0fb5fbcdd11a2590121a380be5dd8ad8851bb9b304c9cb8",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-sw-no-aerosols.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-sw-no-aerosols.nc",
+    "size": 58597,
+    "sha256": "69cf6a5afd617cdff8fb0ca513521f10e3123611c621d7d94b329b804f1e4700",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-sw.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-sw.nc",
+    "size": 71217,
+    "sha256": "a6bdf24dd701abd2d13a08f0161ad32ef8e94f5414514ab8b85d92d4d131d92b",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-lw-no-aerosols.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-lw-no-aerosols.nc",
+    "size": 53589,
+    "sha256": "2aadb1674a94e31627b4884a28a59ae5caedad65a0fed7d27632a650deb8056a",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-lw.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-lw.nc",
+    "size": 65618,
+    "sha256": "be4d44b2045b8b819e02caded867f77599d3a18c37f4381a36a055e0d9f3648e",
+    "archive_member": null
+  },
+  {
+    "file": "data/rrtmgp/examples/all-sky/reference/rrtmgp-allsky-sw-no-aerosols-gpt-clouds.nc",
+    "url": "https://raw.githubusercontent.com/earth-system-radiation/rrtmgp-data/v1.9/examples/all-sky/reference/rrtmgp-allsky-sw-no-aerosols-gpt-clouds.nc",
+    "size": 58577,
+    "sha256": "a62bf5de44a1a28a31542daab414e1d4fdf4c60f952fda5e77d9b4fa204a357b",
+    "archive_member": null
+  }
+]

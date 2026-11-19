@@ -1,0 +1,586 @@
+{
+  "definitions": {
+    "temperature_comparison": "FDH full perturbation minus FDH CO2-SW-off perturbation; same initial temperatures",
+    "mass_mean": "RFMIP profile_weight times layer pressure thickness; above diagnosed tropopause and layer-mean pressure>=100Pa",
+    "pressure_levels": "log-pressure interpolation of each column followed by RFMIP weighting",
+    "scope": "prescribed clear-sky atmosphere; fixed ozone, water vapor, troposphere and dynamical heating; not an observed historical trend",
+    "formula_comparison": "numerical ratio to5.35*ln(C1/C0), not an additional correction to that parametrization"
+  },
+  "scenarios": [
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "global_tsis",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -1.7860181212151636,
+          "full_K": -1.4512253006836078,
+          "SW_offset_K": 0.3347928205315558,
+          "cooling_reduction_percent": 18.74520849227279
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -2.7973274654167133,
+          "full_K": -2.5057034494327084,
+          "SW_offset_K": 0.2916240159840049,
+          "cooling_reduction_percent": 10.425093936600023
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -3.4515044160239206,
+          "full_K": -3.1815968277209703,
+          "SW_offset_K": 0.26990758830295025,
+          "cooling_reduction_percent": 7.819998347673551
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -4.2020174274267195,
+          "full_K": -3.904845285793903,
+          "SW_offset_K": 0.29717214163281636,
+          "cooling_reduction_percent": 7.072130155700047
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -5.108995931817447,
+          "full_K": -4.793865853809474,
+          "SW_offset_K": 0.3151300780079733,
+          "cooling_reduction_percent": 6.168141102744441
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -5.544535637683385,
+          "full_K": -5.239969292437202,
+          "SW_offset_K": 0.3045663452461831,
+          "cooling_reduction_percent": 5.493090227001171
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -6.644596828189765,
+          "full_K": -6.330736633138436,
+          "SW_offset_K": 0.3138601950513289,
+          "cooling_reduction_percent": 4.723540090796391
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.3482342379518724,
+        "full_K": -1.1004336427683112,
+        "SW_offset_K": 0.24780059518356112,
+        "cooling_reduction_percent": 18.379639695250553
+      },
+      "formula_comparison": {
+        "classical_Wm2": 2.1692383283786794,
+        "surface_SW_Wm2": -0.1708432669374971,
+        "surface_ratio_percent": -7.875725995731776,
+        "SW_induced_TOA_Wm2": -0.07433021730986322,
+        "TOA_ratio_percent": -3.4265583609440795
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 560,
+      "model": "global_tsis",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -2.835134193375987,
+          "full_K": -2.2336828459611504,
+          "SW_offset_K": 0.6014513474148364,
+          "cooling_reduction_percent": 21.214210911782185
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -4.610995611412857,
+          "full_K": -4.082257283766926,
+          "SW_offset_K": 0.5287383276459314,
+          "cooling_reduction_percent": 11.466901558900433
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -5.784004041038404,
+          "full_K": -5.2963692937756335,
+          "SW_offset_K": 0.4876347472627707,
+          "cooling_reduction_percent": 8.430747001608689
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -7.125178547947065,
+          "full_K": -6.6009626758112985,
+          "SW_offset_K": 0.5242158721357661,
+          "cooling_reduction_percent": 7.357231381756817
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -8.928747734274584,
+          "full_K": -8.366019962156143,
+          "SW_offset_K": 0.5627277721184409,
+          "cooling_reduction_percent": 6.302426598506199
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -9.359404413753488,
+          "full_K": -8.813872447920925,
+          "SW_offset_K": 0.5455319658325628,
+          "cooling_reduction_percent": 5.828703854605457
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -11.364538319139795,
+          "full_K": -10.801987671710611,
+          "SW_offset_K": 0.5625506474291839,
+          "cooling_reduction_percent": 4.950052801368569
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -2.233239739187317,
+        "full_K": -1.790003037469469,
+        "SW_offset_K": 0.4432367017178478,
+        "cooling_reduction_percent": 19.84725123506637
+      },
+      "formula_comparison": {
+        "classical_Wm2": 3.708337415995707,
+        "surface_SW_Wm2": -0.3194820428630779,
+        "surface_ratio_percent": -8.615236614796968,
+        "SW_induced_TOA_Wm2": -0.1328543412501917,
+        "TOA_ratio_percent": -3.5825850333125535
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 1120,
+      "model": "global_tsis",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -4.711399340274433,
+          "full_K": -3.3613474335637084,
+          "SW_offset_K": 1.3500519067107244,
+          "cooling_reduction_percent": 28.6550090367013
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -8.282218712221793,
+          "full_K": -7.071842333998333,
+          "SW_offset_K": 1.2103763782234598,
+          "cooling_reduction_percent": 14.614156185435526
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -10.84871403484459,
+          "full_K": -9.739213556837813,
+          "SW_offset_K": 1.1095004780067779,
+          "cooling_reduction_percent": 10.227022985795493
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -14.153394414636926,
+          "full_K": -13.009134617676656,
+          "SW_offset_K": 1.1442597969602701,
+          "cooling_reduction_percent": 8.084702251898797
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -17.80475630749264,
+          "full_K": -16.547586065905392,
+          "SW_offset_K": 1.2571702415872466,
+          "cooling_reduction_percent": 7.06086744393239
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -18.539082213251895,
+          "full_K": -17.332886315442817,
+          "SW_offset_K": 1.2061958978090779,
+          "cooling_reduction_percent": 6.506233069870517
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -22.385390088878125,
+          "full_K": -21.122137717206062,
+          "SW_offset_K": 1.2632523716720634,
+          "cooling_reduction_percent": 5.643200170542005
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -4.2032144239379985,
+        "full_K": -3.2143051490305536,
+        "SW_offset_K": 0.9889092749074448,
+        "cooling_reduction_percent": 23.52745244866509
+      },
+      "formula_comparison": {
+        "classical_Wm2": 7.416674831991414,
+        "surface_SW_Wm2": -0.8058093728174279,
+        "surface_ratio_percent": -10.864833514631302,
+        "SW_induced_TOA_Wm2": -0.29076838391542026,
+        "TOA_ratio_percent": -3.920468275907244
+      }
+    }
+  ],
+  "sensitivity": [
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "convergence_vertical2",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.28579365470519,
+          "no_CO2_SW_K": -1.7831402615430332,
+          "full_K": -1.4492413949680236,
+          "SW_offset_K": 0.33389886657500956,
+          "cooling_reduction_percent": 18.725328218772397
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.491571983597506,
+          "no_CO2_SW_K": -2.7992433228210496,
+          "full_K": -2.5092946111202097,
+          "SW_offset_K": 0.2899487117008399,
+          "cooling_reduction_percent": 10.35811032706626
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.091063651625486,
+          "no_CO2_SW_K": -3.4612002403444047,
+          "full_K": -3.192741950040165,
+          "SW_offset_K": 0.2684582903042396,
+          "cooling_reduction_percent": 7.756219567277242
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.654333825570514,
+          "no_CO2_SW_K": -4.202758607580779,
+          "full_K": -3.9061403359844378,
+          "SW_offset_K": 0.296618271596341,
+          "cooling_reduction_percent": 7.0577042198262845
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.385410944966836,
+          "no_CO2_SW_K": -5.128328891715136,
+          "full_K": -4.814018768942639,
+          "SW_offset_K": 0.3143101227724969,
+          "cooling_reduction_percent": 6.128899479911826
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.00062011663983,
+          "no_CO2_SW_K": -5.550381817255833,
+          "full_K": -5.246293491560524,
+          "SW_offset_K": 0.3040883256953082,
+          "cooling_reduction_percent": 5.47869201988797
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.26996962296074,
+          "no_CO2_SW_K": -6.6491278917539205,
+          "full_K": -6.336121544874407,
+          "SW_offset_K": 0.31300634687951323,
+          "cooling_reduction_percent": 4.70747971726782
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.347360193493586,
+        "full_K": -1.1035283616586289,
+        "SW_offset_K": 0.24383183183495705,
+        "cooling_reduction_percent": 18.09700427639343
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "convergence_vertical4",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.27839497554689,
+          "no_CO2_SW_K": -1.7823913425720967,
+          "full_K": -1.4485329545524162,
+          "SW_offset_K": 0.3338583880196806,
+          "cooling_reduction_percent": 18.730925136670777
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.484176945154157,
+          "no_CO2_SW_K": -2.7982389130651293,
+          "full_K": -2.5084369720086817,
+          "SW_offset_K": 0.28980194105644763,
+          "cooling_reduction_percent": 10.356583196071881
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.08359020014298,
+          "no_CO2_SW_K": -3.462121957506624,
+          "full_K": -3.1936899331077337,
+          "SW_offset_K": 0.26843202439889025,
+          "cooling_reduction_percent": 7.753395971995498
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.646608172297675,
+          "no_CO2_SW_K": -4.196801659043407,
+          "full_K": -3.900332045355642,
+          "SW_offset_K": 0.29646961368776514,
+          "cooling_reduction_percent": 7.0641797676791
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.37757795710485,
+          "no_CO2_SW_K": -5.136961747642522,
+          "full_K": -4.822425122199074,
+          "SW_offset_K": 0.3145366254434476,
+          "cooling_reduction_percent": 6.123008908676344
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 41.988191661201085,
+          "no_CO2_SW_K": -5.551894172568533,
+          "full_K": -5.2480969201390755,
+          "SW_offset_K": 0.3037972524294572,
+          "cooling_reduction_percent": 5.471956831066688
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.24680594568923,
+          "no_CO2_SW_K": -6.6457126168848335,
+          "full_K": -6.332834269486357,
+          "SW_offset_K": 0.31287834739847664,
+          "cooling_reduction_percent": 4.707972875678423
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.3432317236937796,
+        "full_K": -1.1003870540695926,
+        "SW_offset_K": 0.24284466962418705,
+        "cooling_reduction_percent": 18.079134474011948
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "convergence_SW112_LW256",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -1.7866244407335952,
+          "full_K": -1.4506459387628592,
+          "SW_offset_K": 0.335978501970736,
+          "cooling_reduction_percent": 18.805211342165556
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -2.7982223022849917,
+          "full_K": -2.5037815393186427,
+          "SW_offset_K": 0.294440762966349,
+          "cooling_reduction_percent": 10.522422136579806
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -3.4506521477271273,
+          "full_K": -3.1815417306651894,
+          "SW_offset_K": 0.26911041706193783,
+          "cooling_reduction_percent": 7.7988277444655
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -4.192438662960365,
+          "full_K": -3.9014065675737672,
+          "SW_offset_K": 0.2910320953865977,
+          "cooling_reduction_percent": 6.941833113930261
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -5.111788097380438,
+          "full_K": -4.8173686121595205,
+          "SW_offset_K": 0.2944194852209172,
+          "cooling_reduction_percent": 5.759618349042951
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -5.552618859516626,
+          "full_K": -5.243374226674251,
+          "SW_offset_K": 0.3092446328423746,
+          "cooling_reduction_percent": 5.569347377631739
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -6.649218354394793,
+          "full_K": -6.314759227110671,
+          "SW_offset_K": 0.33445912728412175,
+          "cooling_reduction_percent": 5.030051796435011
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.348157458622287,
+        "full_K": -1.1005863338907118,
+        "SW_offset_K": 0.24757112473157528,
+        "cooling_reduction_percent": 18.36366539740646
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "convergence_SW224_LW128",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -1.626634155525973,
+          "full_K": -1.2906219780367414,
+          "SW_offset_K": 0.3360121774892315,
+          "cooling_reduction_percent": 20.65689917722045
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -2.683415917692801,
+          "full_K": -2.391474136861259,
+          "SW_offset_K": 0.2919417808315421,
+          "cooling_reduction_percent": 10.87948308373133
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -3.4103670470658014,
+          "full_K": -3.14176046734421,
+          "SW_offset_K": 0.2686065797215913,
+          "cooling_reduction_percent": 7.8761780188057475
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -4.185936643678286,
+          "full_K": -3.8947764474555213,
+          "SW_offset_K": 0.29116019622276434,
+          "cooling_reduction_percent": 6.955676136725153
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -5.114943979937712,
+          "full_K": -4.807367829977321,
+          "SW_offset_K": 0.30757614996039084,
+          "cooling_reduction_percent": 6.013284821237405
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -5.565464066219027,
+          "full_K": -5.267084001864921,
+          "SW_offset_K": 0.2983800643541059,
+          "cooling_reduction_percent": 5.361279145888267
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -6.626043055096009,
+          "full_K": -6.316958476920051,
+          "SW_offset_K": 0.30908457817595814,
+          "cooling_reduction_percent": 4.664693175186131
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.32646362341987,
+        "full_K": -1.0790928093990246,
+        "SW_offset_K": 0.24737081402084526,
+        "cooling_reduction_percent": 18.648895427910592
+      }
+    },
+    {
+      "c0": 280,
+      "c1": 420,
+      "model": "global_native",
+      "pressure_levels": [
+        {
+          "pressure_hPa": 50,
+          "height_km": 20.31063016804864,
+          "no_CO2_SW_K": -1.7860324193496915,
+          "full_K": -1.4482765136870268,
+          "SW_offset_K": 0.33775590566266467,
+          "cooling_reduction_percent": 18.910961637843297
+        },
+        {
+          "pressure_hPa": 30,
+          "height_km": 23.517194515234703,
+          "no_CO2_SW_K": -2.7967585402796074,
+          "full_K": -2.5037048556328316,
+          "SW_offset_K": 0.2930536846467757,
+          "cooling_reduction_percent": 10.47833341442045
+        },
+        {
+          "pressure_hPa": 20,
+          "height_km": 26.11719650546864,
+          "no_CO2_SW_K": -3.45003753674738,
+          "full_K": -3.179177628349954,
+          "SW_offset_K": 0.2708599083974259,
+          "cooling_reduction_percent": 7.850926417826362
+        },
+        {
+          "pressure_hPa": 10,
+          "height_km": 30.67902322774937,
+          "no_CO2_SW_K": -4.199249442590484,
+          "full_K": -3.8995280471835407,
+          "SW_offset_K": 0.29972139540694354,
+          "cooling_reduction_percent": 7.1374992008583265
+        },
+        {
+          "pressure_hPa": 5,
+          "height_km": 35.41143456386211,
+          "no_CO2_SW_K": -5.105727540634527,
+          "full_K": -4.786648223643206,
+          "SW_offset_K": 0.3190793169913215,
+          "cooling_reduction_percent": 6.249438781288105
+        },
+        {
+          "pressure_hPa": 2,
+          "height_km": 42.045583861429016,
+          "no_CO2_SW_K": -5.54205462509743,
+          "full_K": -5.233018238973759,
+          "SW_offset_K": 0.3090363861236707,
+          "cooling_reduction_percent": 5.576206064880456
+        },
+        {
+          "pressure_hPa": 1,
+          "height_km": 47.364611673158336,
+          "no_CO2_SW_K": -6.64262206056998,
+          "full_K": -6.323973636906766,
+          "SW_offset_K": 0.31864842366321433,
+          "cooling_reduction_percent": 4.797027751355648
+        }
+      ],
+      "mass_weighted_stratosphere": {
+        "no_CO2_SW_K": -1.3480322979299995,
+        "full_K": -1.0976671297674143,
+        "SW_offset_K": 0.25036516816258514,
+        "cooling_reduction_percent": 18.57263869323004
+      }
+    }
+  ]
+}

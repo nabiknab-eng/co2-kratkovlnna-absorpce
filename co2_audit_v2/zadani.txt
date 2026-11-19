@@ -1,0 +1,539 @@
+# NEZÁVISLÝ FYZIKÁLNÍ VÝZKUM A AUDIT
+## Krátkovlnná absorpce slunečního záření atmosférickým CO₂ a její dopad na energetickou bilanci zemského povrchu
+
+### 1. Hlavní výzkumná otázka
+
+Proveď nezávislý kvantitativní výzkum následujícího fyzikálního mechanismu:
+
+**Rostoucí koncentrace atmosférického CO₂ zvyšuje absorpci části dopadajícího slunečního záření ještě před jeho dosažením zemského povrchu. Tato absorpce může snižovat krátkovlnný energetický příkon povrchu a v důsledku následné radiační výměny atmosféry působit jako záporný příspěvek k jeho teplotní odezvě.**
+
+Cílem je zjistit:
+
+1. Jak velká je změna absorpce slunečního záření při zvýšení CO₂?
+2. Jak je dodatečná absorpce rozdělena podle výšky v atmosféře?
+3. O kolik se skutečně změní krátkovlnný tok dopadající na zemský povrch?
+4. Jak se dodatečná energie absorbovaná atmosférou přerozdělí a jaká část následné radiační odezvy směřuje do vesmíru?
+5. Jaký je čistý účinek těchto procesů na energetickou bilanci povrchu a na radiační působení celé planety?
+6. Jak citlivý je výsledek na spektroskopické údaje, radiační model a fyzikální předpoklady?
+7. Jsou výsledky publikovaných prací numericky a metodicky správné?
+
+Jde o otevřenou výzkumnou otázku. Nepředpokládej předem kladné ani záporné znaménko výsledného účinku.
+
+**Požaduji vlastní výpočty, nezávislé ověření a kritické hodnocení. Nestačí rešerše ani opakování publikovaných závěrů.**
+
+---
+
+### 2. Zásady nezávislého výzkumu
+
+Postupuj jako vědecký pracovník provádějící reprodukční a metodický audit.
+
+Dodržuj následující zásady:
+
+- Publikované články představují testovaná tvrzení, nikoli autoritu určující výsledek.
+- Původní data a spektroskopická měření mají přednost před zjednodušenými parametrizacemi.
+- Rozlišuj měření, výpočet, předpoklad a interpretaci.
+- Vždy kontroluj energetickou bilanci.
+- Nezávisle ověřuj fyzikální a matematická znaménka.
+- Nezaměňuj atmosférickou absorpci s čistým přírůstkem energie celé soustavy.
+- Odděluj krátkovlnné procesy od dlouhovlnných procesů vyvolaných jejich následnou odezvou.
+- Uváděj nejistoty, aproximace a rozsah platnosti.
+- Pokud publikační závěr nelze reprodukovat, zjisti proč.
+- Pokud je metoda publikace nevhodná, navrhni lepší řešení.
+- Výsledky nesmějí být upravovány tak, aby odpovídaly očekávání.
+
+Zachovej úplnou metodickou nezávislost.
+
+### 3. Publikace určené ke kritickému auditu
+
+#### A. Shine, Byrom a Checa-Garcia (2022)
+
+*Separating the shortwave and longwave components of greenhouse gas radiative forcing.*
+
+Atmospheric Science Letters.
+
+DOI: https://doi.org/10.1002/asl.1116
+
+Tato práce je hlavním předmětem auditu.
+
+Autoři uvádějí, že při nárůstu CO₂ z 278 na 417 ppm vede zahrnutí krátkovlnných procesů a odpovídající stratosférické adaptace ke snížení výsledného radiačního působení přibližně o 0,05 W/m², tedy o 2,3 % proti případu bez krátkovlnného účinku CO₂.
+
+Požaduji:
+
+- Přesně rekonstruovat definice všech počítaných radiačních toků.
+- Prověřit tabulku 3 a související rovnice.
+- Přepočítat jednotlivé příspěvky k energetické bilanci.
+- Nezávisle vypočítat krátkovlnné účinky.
+- Přezkoumat použitý model SOCRATES a jeho spektrální rozlišení.
+- Ověřit použití slunečního spektra, atmosférických profilů a výšky tropopauzy.
+- Prověřit rozdělení dodatečného dlouhovlnného vyzařování mezi horní a dolní hranici stratosféry.
+- Zjistit, zda uváděná hodnota −0,05 W/m² obstojí při použití kvalitnějšího radiačního modelu.
+
+Zvláštní pozornost věnuj tomu, že autoři uvádějí různé okamžité krátkovlnné účinky na TOA a na tropopauze.
+
+Ověř, zda je jejich interpretace těchto rozdílů úplná.
+
+#### B. Allen et al. (2024)
+
+*Present-day methane shortwave absorption mutes surface warming relative to preindustrial conditions.*
+
+Atmospheric Chemistry and Physics.
+
+DOI: https://doi.org/10.5194/acp-24-11207-2024
+
+Ačkoli je hlavním tématem metan, práce obsahuje také experimenty se samostatným krátkovlnným účinkem CO₂.
+
+Prověř:
+
+- Simulace 2×CO₂ a 4×CO₂.
+- Výpočet samostatné krátkovlnné klimatické odezvy.
+- Výsledek přibližně −0,38 ± 0,12 °C pro izolovaný krátkovlnný účinek při 4×CO₂.
+- Způsob oddělování krátkovlnných a dlouhovlnných účinků.
+- Experimentální konfiguraci CESM2/CAM6.
+- Použitý radiační model RRTMG.
+- Statistickou významnost vypočtených odezev.
+- Závislost výsledků na změnách oblačnosti, vodní páry a dynamice atmosféry.
+
+Odděl přímý spektroskopický účinek CO₂ od klimatické odezvy modelu.
+
+Zejména zjisti, nakolik je vypočtené ochlazování povrchu přímým důsledkem změny toku slunečního záření a nakolik důsledkem následných změn atmosférického systému.
+
+#### C. Hogan a Matricardi (2020)
+
+*Evaluating and improving the treatment of gases in radiation schemes: the Correlated K-Distribution Model Intercomparison Project (CKDMIP).*
+
+Geoscientific Model Development.
+
+DOI: https://doi.org/10.5194/gmd-13-6501-2020
+
+Tato práce je důležitá jako nezávislý spektroskopický benchmark.
+
+Autoři zjistili, že některé verze RRTMG podhodnocují krátkovlnné okamžité radiační působení CO₂ a CH₄ přibližně o 25–45 %.
+
+Zjisti:
+
+- Kterých přesně scénářů a definic radiačního působení se tento rozdíl týká.
+- Která absorpční pásma jsou nedostatečně reprezentována.
+- Zda chyba závisí na koncentraci CO₂.
+- Jak se chyba projevuje v atmosférických vertikálních profilech ohřevu.
+- Jak ovlivňuje povrchový krátkovlnný tok.
+- Zda je chyba systematická.
+- Zda novější radiační schémata nedostatek odstranila.
+
+Neaplikuj procentní chybu automaticky na výslednou teplotní odezvu. Takový přepočet musí být fyzikálně odůvodněný.
+
+#### D. Cohen, Pincus a Polvani (2026)
+
+*Stratospheric cooling and amplification of radiative forcing with rising carbon dioxide.*
+
+Nature Geoscience.
+
+DOI: https://doi.org/10.1038/s41561-026-01965-8
+
+Prozkoumej pouze ty části práce, které jsou relevantní pro krátkovlnnou absorpci CO₂, výškové rozložení radiačního ohřevu a energetickou bilanci stratosféry.
+
+Zejména ověř předpoklad přibližně neměnného krátkovlnného ohřevu v použitých výpočtech a zjisti, při jakých podmínkách je platný.
+
+#### E. Starší výchozí práce
+
+Zahrň také:
+
+Myhre et al. (1998):
+https://doi.org/10.1029/98GL01908
+
+Etminan et al. (2016):
+https://doi.org/10.1002/2016GL071930
+
+Vyhledej další nezávislé studie, které naše výsledky potvrzují nebo zpochybňují.
+
+Neomezuj rešerši na výše uvedený seznam.
+
+---
+
+### 4. Základní fyzikální rozklad
+
+Zaveď konzistentní znaménkovou konvenci: čistý radiační tok směrem dolů je kladný.
+
+V každé výškové hladině počítej:
+
+\[
+F_{\mathrm{SW,net}}(z)=F^\downarrow_{\mathrm{SW}}(z)-F^\uparrow_{\mathrm{SW}}(z)
+\]
+
+Analogicky pro dlouhovlnné záření.
+
+Vypočítej alespoň následující veličiny:
+
+- Dopadající krátkovlnný tok na TOA.
+- Odražený krátkovlnný tok na TOA.
+- Krátkovlnný tok na tropopauze.
+- Přímý a difuzní krátkovlnný tok na povrchu.
+- Celkový krátkovlnný tok absorbovaný povrchem.
+- Krátkovlnnou absorpci atmosférou po vrstvách.
+- Dlouhovlnné toky nahoru a dolů.
+- Čistý radiační ohřev jednotlivých vrstev.
+- Změnu celkové radiační bilance atmosféry a povrchu.
+
+Zejména používej bilanční rovnici:
+
+\[
+ASR_{\mathrm{TOA}}
+=
+ASR_{\mathrm{povrch}}
++
+ASR_{\mathrm{atmosféra}}
+\]
+
+Pro změny těchto veličin platí odpovídající rozdílová rovnice.
+
+Přesně odlišuj:
+
+1. Zvýšení absorpce sluneční energie v atmosféře.
+2. Snížení krátkovlnného příkonu zemského povrchu.
+3. Změnu odrazu slunečního záření do vesmíru.
+4. Změnu dlouhovlnného vyzařování atmosféry.
+5. Čisté radiační působení na TOA.
+6. Čistou energetickou odezvu povrchu.
+
+Tyto veličiny nejsou zaměnitelné.
+
+### 5. Klíčový problém: Kam odchází dodatečně absorbovaná energie?
+
+Vypočítej, jak se atmosféra radiačně přizpůsobí dodatečné absorpci slunečního záření CO₂.
+
+Pro jednotlivé výškové vrstvy urči:
+
+- Dodatečnou krátkovlnnou absorpci.
+- Změnu lokální teploty při radiační adaptaci.
+- Změnu dlouhovlnného vyzařování nahoru.
+- Změnu dlouhovlnného vyzařování dolů.
+- Změnu radiačního ohřevu sousedních vrstev.
+- Výslednou změnu toku na TOA a na spodní hranici vyšetřované oblasti.
+
+Zásadní otázkou je, do jaké míry může být dodatečná energie absorbovaná ve vyšších vrstvách atmosféry kompenzována větším vyzařováním do vesmíru, aniž by odpovídající energie dosáhla zemského povrchu.
+
+Nesnaž se přiřazovat jednotlivým fotonům konkrétní konečný osud. Použij fyzikálně správný diferenční rozklad radiačních toků mezi kontrolním a perturbačním experimentem.
+
+Porovnej:
+
+**Experiment A:** CO₂ absorbuje sluneční záření a teplotní profil atmosféry zůstává pevný.
+
+**Experiment B:** CO₂ absorbuje sluneční záření a stratosféra se může radiačně přizpůsobit.
+
+**Experiment C:** Stejné zvýšení CO₂, ale jeho krátkovlnná absorpce je v obou porovnávaných stavech vypnuta.
+
+**Experiment D:** Plný krátkovlnný a dlouhovlnný přenos včetně povolených rychlých atmosférických úprav, jasně odlišených od scénářů A–C.
+
+Tak lze oddělit okamžitý přímý účinek od následné radiační a klimatické odezvy.
+
+---
+
+### 6. Nezávislý spektroskopický výpočet
+
+Vytvoř vlastní numerický model nebo použij a ověř existující otevřený radiativní model.
+
+Preferuji řešení typu line-by-line založené na současných spektroskopických datech, například HITRAN2024.
+
+Možné nástroje:
+
+- HITRAN / HAPI
+- ARTS
+- libRadtran
+- RRTMGP
+- SOCRATES
+- Další vhodné nástroje podle vlastního odborného výběru
+
+Nepředepisuje se konkrétní program. Ověř jejich dostupnost, přesnost a vhodnost.
+
+Pokud některý nástroj neposkytuje potřebné údaje nebo má známé nedostatky, nahraď jej jiným.
+
+Zahrň všechna relevantní krátkovlnná absorpční pásma CO₂, nikoli pouze jeho nejsilnější pásma.
+
+Zohledni:
+
+- Jednotlivé spektrální čáry.
+- Teplotní závislost jejich intenzit.
+- Tlakové rozšíření.
+- Absorpci v křídlech čar.
+- Případné kontinuum a kolizní účinky, pokud jsou relevantní.
+- Překryv s absorpcí H₂O.
+- Překryv s dalšími atmosférickými plyny.
+- Vertikální rozložení tlaku a teploty.
+- Přímé a rozptýlené sluneční záření.
+- Rayleighův rozptyl.
+- Povrchové albedo.
+
+Jako hlavní spektrální vstup použij moderní referenční sluneční spektrum vhodné pro výpočty atmosférického radiačního přenosu.
+
+Nezaměňuj spektrum na horní hranici atmosféry se spektrem po průchodu atmosférou.
+
+Pro každý výsledek uveď spektrální oblast a její integrovaný příspěvek.
+
+### 7. Atmosférické profily a výškové rozložení
+
+Zvol vhodnou sadu referenčních atmosfér.
+
+Minimálně:
+
+- Tropická atmosféra.
+- Atmosféra středních zeměpisných šířek v létě.
+- Atmosféra středních zeměpisných šířek v zimě.
+- Polární atmosféra.
+- Suchá atmosféra.
+- Vlhká atmosféra.
+
+Model musí pokrývat celou troposféru a stratosféru, nejlépe alespoň do 80 km, pokud jsou v této oblasti použité fyzikální aproximace platné.
+
+Počítej dostatečně jemné vertikální vrstvy, aby bylo možné spolehlivě lokalizovat absorpci.
+
+Pro každou vrstvu určuj změnu absorpce v jednotkách W/m² na vrstvu a změnu rychlosti radiačního ohřevu v K/den.
+
+Vytvoř svislé profily:
+
+\[
+\Delta Q_{\mathrm{SW}}(z)
+\]
+
+\[
+\Delta Q_{\mathrm{LW}}(z)
+\]
+
+a jejich součet.
+
+Zajímá mě nejen celková hodnota, ale především **ve kterých výškách CO₂ nově absorbuje sluneční záření a jak se tato absorpce mění s koncentrací**.
+
+---
+
+### 8. Koncentrační scénáře
+
+Proveď minimálně tyto výpočty:
+
+| Scénář | Počáteční CO₂ | Konečný CO₂ |
+|---|---:|---:|
+| Historický referenční | 280 ppm | 420 ppm |
+| Reprodukce Shine et al. | 278 ppm | 417 ppm |
+| Současný až 2× předindustriální | 420 ppm | 560 ppm |
+| Zdvojnásobení | 280 ppm | 560 ppm |
+| Silná perturbace | 280 ppm | 1120 ppm |
+
+Zkoumej také průběh účinku jako spojitou funkci koncentrace CO₂.
+
+Ověř, zda je závislost přibližně logaritmická, případně ve kterých pásmech a koncentracích se od tohoto chování odchyluje.
+
+Ostatní atmosférické složky musí v základním experimentu zůstat neměnné.
+
+Teprve v dalších experimentech povol změny teploty a další fyzikální odezvy.
+
+### 9. Vodní pára a překryv absorpčních pásem
+
+Tuto část považuji za zásadní.
+
+CO₂ absorbuje v pásmech, ve kterých se již uplatňuje atmosférická vodní pára.
+
+Proto:
+
+1. Vypočítej absorpci CO₂ v modelové suché atmosféře.
+2. Vypočítej absorpci při realistickém profilu vodní páry.
+3. Porovnej suché a vlhké tropy.
+4. Porovnej jejich účinek s polární atmosférou.
+5. Vyhodnoť saturaci a překryv spektrálních čar.
+6. Urči, kde vyšší koncentrace CO₂ ještě významně zvyšuje absorpci a kde je jeho přírůstkový účinek malý.
+
+Odlišuj přímou absorpci CO₂ od změny absorpce celé atmosféry po přidání CO₂.
+
+Zkoumej rovněž význam absorpce v horní troposféře a stratosféře, kde je vodní páry podstatně méně.
+
+### 10. Oblačnost, aerosoly a albedo
+
+Základní kontrolní experiment proveď za jasné oblohy bez aerosolů.
+
+Potom samostatně vyhodnoť:
+
+- Nízkou oblačnost.
+- Vysokou oblačnost.
+- Typické aerosolové profily.
+- Oceánský povrch.
+- Pevninský povrch.
+- Sníh a led s vysokým albedem.
+
+Zajímají mě především změny krátkovlnného radiačního působení způsobené opakovaným průchodem a odrazem slunečního záření.
+
+Ověř, zda se znaménko nebo velikost příspěvku CO₂ významně mění v závislosti na albedu a oblačnosti.
+
+Následně vypočítej alespoň přibližný roční globální průměr z reprezentativních profilů nebo vhodného klimatologického souboru.
+
+Nepoužívej jediný atmosférický sloupec jako náhradu za celou Zemi.
+
+---
+
+### 11. Vlastní kritika publikovaných prací
+
+U každé práce sestav auditní záznam obsahující:
+
+**Tvrzení autorů:** Co přesně tvrdí, včetně kvantitativního výsledku.
+
+**Metoda:** Jakými rovnicemi, vstupními daty a numerickými postupy k výsledku dospěli.
+
+**Předpoklady:** Co považovali za konstantní a co nechali měnit.
+
+**Nejistoty:** Co autoři uvedli a co případně nezohlednili.
+
+**Nezávislé ověření:** Jaký výsledek vyšel naším výpočtem za srovnatelných podmínek.
+
+**Případná chyba:** Jasně označ, zda jde o chybu výpočtu, nevhodnou aproximaci, nepodloženou interpretaci, nebo pouze rozdíl mezi legitimními metodami.
+
+**Závěr auditu:** Potvrzeno, částečně potvrzeno, vyvráceno nebo neověřitelné z dostupných podkladů.
+
+Povinně prověř:
+
+- Znaménka radiačních toků.
+- Rozlišení mezi okamžitým a upraveným radiačním působením.
+- Interpretaci krátkovlnných a dlouhovlnných příspěvků.
+- Spektrální přesnost použitých modelů.
+- Vertikální rozdělení absorpce.
+- Přepočet lokálních výsledků na globální průměr.
+- Statistickou významnost rozdílů.
+- Robustnost výsledků vůči volbě modelu.
+
+Zaznamenej také protiargumenty vůči vlastní kritice. Nesporné části publikací není potřeba uměle zpochybňovat.
+
+### 12. Vlastní řešení a nové metody
+
+**Máš výslovné oprávnění samostatně navrhovat další experimenty, výpočetní postupy a metodická zlepšení.**
+
+Neomezuj se na mnou uvedené možnosti.
+
+Pokud při analýze objevíš lepší cestu k oddělení jednotlivých fyzikálních mechanismů, použij ji a vysvětli její výhody.
+
+Můžeš například:
+
+- Navrhnout nezávislý line-by-line benchmark.
+- Porovnat více spektrálních databází.
+- Sestrojit jednoduchý analytický model pro kontrolu komplexních výpočtů.
+- Použít radiační jádra a diferenční energetickou bilanci.
+- Provést Monte Carlo analýzu nejistot.
+- Navrhnout vlastní způsob rozdělení dodatečné absorpce podle výšky.
+- Vyhledat dostupná družicová nebo pozemní spektrální měření pro nezávislou kontrolu.
+- Zkoumat nestandardní atmosférické profily, v nichž se mechanismus může projevovat výrazněji.
+
+Pokud dojdeš k závěru, že původní výzkumná otázka není definována optimálně, navrhni její fyzikálně přesnější formulaci a pokračuj v testování.
+
+Vlastní iniciativu považuji za součást úkolu, nikoliv za odchylku od zadání.
+
+---
+
+### 13. Povinné numerické výsledky
+
+Vytvoř alespoň následující tabulku pro hlavní koncentrační scénáře:
+
+| Veličina | 280 → 420 ppm | 280 → 560 ppm | 280 → 1120 ppm |
+|---|---|---|---|
+| Změna SW absorpce atmosférou (W/m²) | | | |
+| Změna SW absorpce povrchem (W/m²) | | | |
+| Změna odraženého SW na TOA (W/m²) | | | |
+| Změna SW absorpce troposférou (W/m²) | | | |
+| Změna SW absorpce stratosférou (W/m²) | | | |
+| Změna LW vyzařování na TOA po adaptaci (W/m²) | | | |
+| Změna LW toku směrem dolů na tropopauze (W/m²) | | | |
+| Čistý krátkovlnně vyvolaný radiační účinek (W/m²) | | | |
+| Nejistota výsledku | | | |
+
+Každá veličina musí mít přesnou definici, znaménkovou konvenci a označení, zda jde o okamžitou změnu nebo výsledek po adaptaci.
+
+Samostatně vypočítej relativní změnu oproti dlouhovlnnému radiačnímu působení CO₂, ale nezaměňuj tento poměr za procentní změnu výsledné povrchové teploty.
+
+### 14. Povinné grafy
+
+Vytvoř:
+
+1. Změnu spektrální absorpce CO₂ podle vlnové délky.
+2. Změnu spektrálního slunečního toku na povrchu.
+3. Vertikální profil dodatečné krátkovlnné absorpce CO₂.
+4. Vertikální profil změny radiačního ohřevu.
+5. Změnu dlouhovlnných toků vyvolanou radiační adaptací.
+6. Závislost krátkovlnného účinku na koncentraci CO₂.
+7. Porovnání suché a vlhké atmosféry.
+8. Porovnání výsledků jednotlivých radiačních modelů.
+9. Rozdíl mezi našimi výsledky a publikovanými hodnotami.
+10. Rozklad nejistoty podle příčin.
+
+Používej fyzikální jednotky, jasné popisky a měřítka umožňující číst malé rozdíly.
+
+### 15. Reprodukovatelnost
+
+Naprogramuj a skutečně spusť potřebné výpočty.
+
+Používej pokud možno otevřené vědecké knihovny a dostupné databáze.
+
+Výpočetní prostředí: macOS na Apple Silicon, případně jiná dostupná a reprodukovatelná konfigurace.
+
+Dodej:
+
+- Kompletní zdrojový kód.
+- Skripty pro získání dat.
+- Přesné verze použitých databází a knihoven.
+- Konfigurační soubory všech experimentů.
+- Testy jednotek a znaménkových konvencí.
+- Testy zachování energie.
+- Kontroly numerické konvergence.
+- CSV s výslednými toky a výškovými profily.
+- Grafy.
+- Technickou dokumentaci.
+- Seznam všech použitých publikací a datových zdrojů.
+
+Jestliže některý model nebo data nejsou dostupné, tuto skutečnost zaznamenej a použij nejkvalitnější dostupnou alternativu.
+
+Nevydávej nepodložený numerický odhad za výsledek line-by-line modelu.
+
+### 16. Závěrečná vědecká zpráva
+
+Zprávu napiš česky, s použitím standardní fyzikální terminologie.
+
+Rozděl ji na:
+
+1. Výzkumnou otázku a hypotézy.
+2. Použité metody a vstupní data.
+3. Nezávislé spektrální výpočty.
+4. Vertikální rozložení absorpce.
+5. Energetickou bilanci atmosféry a povrchu.
+6. Porovnání radiačních modelů.
+7. Kritický audit publikací.
+8. Nová zjištění a vlastní metodické návrhy.
+9. Nevyřešené otázky.
+10. Konečné závěry a priority dalšího výzkumu.
+
+V závěru jednoznačně odpověz:
+
+**A.** O kolik W/m² snižuje růst CO₂ z 280 na 420 ppm krátkovlnný tok absorbovaný zemským povrchem?
+
+**B.** Jak velká část dodatečné absorpce CO₂ připadá na troposféru a jak velká na stratosféru?
+
+**C.** Jak se po radiační adaptaci změní tok energie odcházející do vesmíru?
+
+**D.** Jaký je čistý příspěvek krátkovlnných procesů k radiačnímu působení CO₂?
+
+**E.** Jaká je nejistota těchto výsledků a které fyzikální nebo spektroskopické parametry ji určují?
+
+**F.** Jsou výsledky Shine et al. (2022), Allen et al. (2024) a dalších studií správné, nebo obsahují identifikovatelné chyby či podstatné nedostatky?
+
+**G.** Je krátkovlnný příspěvek CO₂ pro energetickou bilanci zemského povrchu zanedbatelný, nebo dostatečně významný, aby bylo nutné jej v kvantitativních výpočtech explicitně zahrnovat?
+
+### 17. Nejdůležitější instrukce
+
+Nechci obhajobu existující klimatické teorie ani její předem zamýšlené vyvrácení.
+
+Chci nezávislý test konkrétního fyzikálního mechanismu.
+
+Vždy musí být jasné:
+
+- Co je měřeno.
+- Co je vypočteno.
+- Co je odvozeno z předpokladů.
+- Co je pouze hypotéza.
+- Jaká je nejistota.
+- Které výsledky jsou reprodukovatelné.
+
+**Za nejvyšší prioritu považuji přesné určení krátkovlnné energetické ztráty povrchu, výškového rozložení dodatečné absorpce CO₂ a následné radiační odezvy atmosféry.**
+
+Přistupuj k publikacím kriticky, ale stejnou přísnost uplatňuj i na vlastní výpočty.
+
+Úkol nekončí vytvořením plánu. Vypracuj skutečné numerické řešení a odbornou zprávu v rozsahu, který umožňují dostupné nástroje a data. Pokud některou část není možné provést, přesně dolož proč a jasně ji odděl od dokončených výpočtů.
